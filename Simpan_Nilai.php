@@ -1,7 +1,6 @@
 <?
 include "Koneksi.PHP";
 
-		
 $hasil = mysql_query("insert into nilai (npm, kode, nilai, tanggal, keterangan) 
 				VALUES( 	'" . $_REQUEST[T_NPM] . "',
  							'" . $_REQUEST[T_NAMA] . "',
